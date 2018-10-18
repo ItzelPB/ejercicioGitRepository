@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var labelContador: UILabel!
     
-    
+    var cuentaClicks = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -24,6 +24,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func botonAgregar(_ sender: UIButton) {
+        cuentaClicks += 1
+        self.labelContador.text = String(cuentaClicks)
         
     }
     
