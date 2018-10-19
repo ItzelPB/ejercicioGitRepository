@@ -27,6 +27,13 @@ class ViewController: UIViewController {
         cuentaClicks += 1
         self.labelContador.text = String(cuentaClicks)
         
+        if (cuentaClicks % 20) == 0 {
+            self.labelContador.backgroundColor = .green
+        }
+        
+        if (cuentaClicks % 20) != 0 {
+            self.labelContador.backgroundColor = .white
+        }
     }
     
 
