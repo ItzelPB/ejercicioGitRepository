@@ -31,12 +31,21 @@
                                     <action selector="botonAgregar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ROE-mC-SCu"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ik-jX-u6C">
+                                <rect key="frame" x="151" y="415" width="72" height="30"/>
+                                <state key="normal" title="Disminuye"/>
+                                <connections>
+                                    <action selector="botonDisminuye:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c5O-Zy-Fcr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="t7i-dg-Z0Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A2I-HG-nad"/>
+                            <constraint firstItem="5Ik-jX-u6C" firstAttribute="top" secondItem="LSD-jh-KGp" secondAttribute="bottom" constant="27" id="Djt-9N-EXI"/>
                             <constraint firstItem="LSD-jh-KGp" firstAttribute="top" secondItem="t7i-dg-Z0Y" secondAttribute="bottom" constant="14" id="azX-zV-dfq"/>
                             <constraint firstItem="t7i-dg-Z0Y" firstAttribute="centerX" secondItem="LSD-jh-KGp" secondAttribute="centerX" id="bdl-qi-Or1"/>
+                            <constraint firstItem="5Ik-jX-u6C" firstAttribute="centerX" secondItem="LSD-jh-KGp" secondAttribute="centerX" id="fUJ-Qp-Ojf"/>
                             <constraint firstItem="t7i-dg-Z0Y" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kvu-Nx-KNL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
