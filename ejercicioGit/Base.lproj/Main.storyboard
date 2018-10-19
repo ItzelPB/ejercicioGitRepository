@@ -38,11 +38,20 @@
                                     <action selector="botonDisminuye:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c5O-Zy-Fcr"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEK-if-S5x">
+                                <rect key="frame" x="178" y="468" width="30" height="30"/>
+                                <state key="normal" title="x10"/>
+                                <connections>
+                                    <action selector="botonPorDiez:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mGp-xc-qHo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="iEK-if-S5x" firstAttribute="trailing" secondItem="t7i-dg-Z0Y" secondAttribute="trailing" id="9cg-GN-ooA"/>
                             <constraint firstItem="t7i-dg-Z0Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A2I-HG-nad"/>
                             <constraint firstItem="5Ik-jX-u6C" firstAttribute="top" secondItem="LSD-jh-KGp" secondAttribute="bottom" constant="27" id="Djt-9N-EXI"/>
+                            <constraint firstItem="iEK-if-S5x" firstAttribute="top" secondItem="5Ik-jX-u6C" secondAttribute="bottom" constant="23" id="Ii5-bE-zUy"/>
                             <constraint firstItem="LSD-jh-KGp" firstAttribute="top" secondItem="t7i-dg-Z0Y" secondAttribute="bottom" constant="14" id="azX-zV-dfq"/>
                             <constraint firstItem="t7i-dg-Z0Y" firstAttribute="centerX" secondItem="LSD-jh-KGp" secondAttribute="centerX" id="bdl-qi-Or1"/>
                             <constraint firstItem="5Ik-jX-u6C" firstAttribute="centerX" secondItem="LSD-jh-KGp" secondAttribute="centerX" id="fUJ-Qp-Ojf"/>

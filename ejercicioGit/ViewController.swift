@@ -50,6 +50,13 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func botonPorDiez(_ sender: UIButton) {
+        cuentaClicks = cuentaClicks * 10
+        self.labelContador.text = String(cuentaClicks)
+    }
+    
+    
+    
     
     
 
